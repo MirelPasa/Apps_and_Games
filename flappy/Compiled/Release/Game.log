@@ -1,0 +1,62 @@
+﻿Build started 02.07.2015 12:17:10.
+     1>Project "D:\Aplicatii si jocuri C++\flappy24\Game.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Aplicatii si jocuri C++\flappy24\\Includes" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Compiled\Release/" /Fd".\Compiled\Release/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source\BackBuffer.cpp Source\FlappyBird.cpp Source\Button.cpp Source\giFlappyBird.cpp Source\ParallaxLayer.cpp Source\Player.cpp Source\Projectile.cpp Source\Rect.cpp Source\Sprite.cpp Source\Tube.cpp Source\Vec2.cpp
+         BackBuffer.cpp
+         FlappyBird.cpp
+     1>Source\FlappyBird.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(160): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(179): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(198): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(221): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(245): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(258): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(270): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Source\FlappyBird.cpp(280): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(398): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(405): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(413): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(680): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(686): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(716): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(717): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(718): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(719): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(720): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(721): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(722): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(723): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Source\FlappyBird.cpp(731): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\FlappyBird.cpp(743): warning C4018: '<' : signed/unsigned mismatch
+         Button.cpp
+         giFlappyBird.cpp
+         ParallaxLayer.cpp
+         Player.cpp
+         Projectile.cpp
+         Rect.cpp
+         Sprite.cpp
+         Tube.cpp
+         Vec2.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /l"0x0809" /nologo /fo".\Compiled\Release\Flappy.res" Res\Flappy.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Aplicatii si jocuri C++\flappy24\Game.exe" /INCREMENTAL:NO /NOLOGO d3d9.lib d3dx9.lib winmm.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Compiled\Release/Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\Aplicatii si jocuri C++\flappy24\Game.lib" /MACHINE:X86 /SAFESEH .\Compiled\Release\Flappy.res
+         .\Compiled\Release/BackBuffer.obj
+         .\Compiled\Release/FlappyBird.obj
+         .\Compiled\Release/Button.obj
+         .\Compiled\Release/giFlappyBird.obj
+         .\Compiled\Release/ParallaxLayer.obj
+         .\Compiled\Release/Player.obj
+         .\Compiled\Release/Projectile.obj
+         .\Compiled\Release/Rect.obj
+         .\Compiled\Release/Sprite.obj
+         .\Compiled\Release/Tube.obj
+         .\Compiled\Release/Vec2.obj
+         Game.vcxproj -> D:\Aplicatii si jocuri C++\flappy24\Game.exe
+     1>Done Building Project "D:\Aplicatii si jocuri C++\flappy24\Game.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:40.09

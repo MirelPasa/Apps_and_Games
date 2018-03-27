@@ -1,0 +1,173 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "Res/resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+
+IDB_MENUSCREEN         		BITMAP                  "..\\Data\Sprites\Menu\menu.bmp"
+IDB_MENUSCREEN_MASK         	BITMAP                  "..\Data\\Sprites\Menu\menuMask.bmp"
+IDB_GAMEOVER          		BITMAP                  "Data/Sprites/Gameover/gameover.bmp"
+IDB_GAMEOVER_MASK         	BITMAP                  "Data/Sprites/Gameover/gameoverMask.bmp"
+IDB_SINGLEPLAYERNORMAL 		BITMAP			"Data/Sprites/Buttons/singleplayernormal.bmp"
+IDB_SINGLEPLAYERHIGHLIGHTED	BITMAP			"Data/Sprites/Buttons/singleplayerhighlighted.bmp"
+IDB_SINGLEPLAYERPRESSED		BITMAP			"Data/Sprites/Buttons/singleplayerpressed.bmp"
+IDB_BACKTOMENUNORMAL		BITMAP			"Data/Sprites/Buttons/backtomenunormal.bmp"
+IDB_BACKTOMENUHIGHLIGHTED	BITMAP			"Data/Sprites/Buttons/backtomenuhighlighted.bmp"
+IDB_BACKTOMENUPRESSED		BITMAP			"Data/Sprites/Buttons/backtomenupressed.bmp"
+IDB_QUITNORMAL			BITMAP			"Data/Sprites/Buttons/quitnormal.bmp"
+IDB_QUITHIGHLIGHTED		BITMAP			"Data/Sprites/Buttons/quithighlighted.bmp"
+IDB_QUITPRESSED			BITMAP			"Data/Sprites/Buttons/quitpressed.bmp"
+IDB_RESUMENORMAL		BITMAP			"Data/Sprites/Buttons/resumenormal.bmp"
+IDB_RESUMEHIGHLIGHTED		BITMAP			"Data/Sprites/Buttons/resumehighlighted.bmp"
+IDB_RESUMEPRESSED		BITMAP			"Data/Sprites/Buttons/resumepressed.bmp"
+IDB_BUTTON_MASK			BITMAP			"Data/Sprites/Buttons/buttonMask.bmp"
+IDB_SCORESNORMAL		BITMAP			"Data/Sprites/Buttons/scoresnormal.bmp"
+IDB_SCORESHIGHLIGHTED		BITMAP			"Data/Sprites/Buttons/scoreshighlighted.bmp"
+IDB_SCORESPRESSED		BITMAP			"Data/Sprites/Buttons/scorespressed.bmp"
+IDB_BIRD			BITMAP			"Data/Sprites/Bird/bird.bmp"
+IDB_BIRD_MASK			BITMAP			"Data/Sprites/Bird/birdMask.bmp"
+IDB_TUBE_UP			BITMAP			"Data/Sprites/Tubes/tube_up.bmp"
+IDB_TUBE_UP_MASK		BITMAP			"Data/Sprites/Tubes/tube_upMask.bmp"
+IDB_TUBE_DOWN			BITMAP			"Data/Sprites/Tubes/tube_down.bmp"
+IDB_TUBE_DOWN_MASK		BITMAP			"Data/Sprites/Tubes/tube_downMask.bmp"
+IDB_LAYER			BITMAP			"Data/Sprites/Layers/bg_day.bmp"
+IDB_LAYER_MASK			BITMAP			"Data/Sprites/Layers/bg_dayMask.bmp"
+IDB_BULLET			BITMAP			"Data/Sprites/Bullet/Bullet.bmp"
+IDB_BULLET_MASK			BITMAP			"Data/Sprites/Bullet/BulletMask.bmp"
+IDB_DIFFICULTYNORMAL			BITMAP			"Data/Sprites/Buttons/difficultynormal.bmp"
+IDB_DIFFICULTYHIGHLIGHTED		BITMAP			"Data/Sprites/Buttons/difficultyhighlighted.bmp"
+IDB_DIFFICULTYPRESSED		BITMAP			"Data/Sprites/Buttons/difficultypressed.bmp"
+
+IDB_NORMALNORMAL			BITMAP			"Data/Sprites/Buttons/normalnormal.bmp"
+IDB_NORMALHIGHLIGHTED		BITMAP			"Data/Sprites/Buttons/normalhighlighted.bmp"
+IDB_NORMALPRESSED		BITMAP			"Data/Sprites/Buttons/normalpressed.bmp"
+IDB_HARDNORMAL			BITMAP			"Data/Sprites/Buttons/hardnormal.bmp"
+IDB_HARDHIGHLIGHTED		BITMAP			"Data/Sprites/Buttons/hardhighlighted.bmp"
+IDB_HARDPRESSED		BITMAP			"Data/Sprites/Buttons/hardpressed.bmp"
+
+IDB_EASYNORMAL			BITMAP			"Data/Sprites/Buttons/easynormal.bmp"
+IDB_EASYHIGHLIGHTED		BITMAP			"Data/Sprites/Buttons/easyhighlighted.bmp"
+IDB_EASYPRESSED		BITMAP			"Data/Sprites/Buttons/easypressed.bmp"
+
+IDB_COIN			BITMAP			"Data/Sprites/Coins/coin.bmp"
+IDB_COIN_MASK			BITMAP			"Data/Sprites/Coins/coinMask.bmp"
+
+IDB_TUBE_FACING_LEFT		BITMAP			"Data/Sprites/Tubes/tube_facing_left.bmp"
+IDB_TUBE_FACING_LEFT_MASK		BITMAP			"Data/Sprites/Tubes/tube_facing_leftMask.bmp"
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 284, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Mirel Pasa-Flappy Bird"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,158,50,14
+    CONTROL         118,IDC_STATIC,"Static",SS_BITMAP,17,16,54,49
+    LTEXT           "In progress...",IDC_STATIC,85,17,122,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
