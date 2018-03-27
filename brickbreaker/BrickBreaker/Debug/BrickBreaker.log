@@ -1,0 +1,48 @@
+﻿Build started 02.09.2014 18:59:19.
+     1>Project "D:\Games\Fara leakuri7\BrickBreaker\BrickBreaker.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BackBuffer.cpp Ball.cpp Brick.cpp BrickBreakerGame.cpp Button.cpp Circle.cpp giBrickBreaker.cpp Player.cpp Player2.cpp Rect.cpp Sprite.cpp Vec2.cpp
+         Vec2.cpp
+         Sprite.cpp
+         Rect.cpp
+         Player2.cpp
+         Player.cpp
+         giBrickBreaker.cpp
+         Circle.cpp
+         Button.cpp
+         BrickBreakerGame.cpp
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(601): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(602): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(603): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(604): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(605): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(606): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(607): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\games\fara leakuri7\brickbreaker\brickbreakergame.cpp(608): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Brick.cpp
+         Ball.cpp
+         BackBuffer.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\BrickBreaker.res" BrickBreaker.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Games\Fara leakuri7\Debug\BrickBreaker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Games\Fara leakuri7\Debug\BrickBreaker.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Games\Fara leakuri7\Debug\BrickBreaker.lib" /MACHINE:X86 Debug\BrickBreaker.res
+         Debug\BackBuffer.obj
+         Debug\Ball.obj
+         Debug\Brick.obj
+         Debug\BrickBreakerGame.obj
+         Debug\Button.obj
+         Debug\Circle.obj
+         Debug\giBrickBreaker.obj
+         Debug\Player.obj
+         Debug\Player2.obj
+         Debug\Rect.obj
+         Debug\Sprite.obj
+         Debug\Vec2.obj
+         BrickBreaker.vcxproj -> D:\Games\Fara leakuri7\Debug\BrickBreaker.exe
+     1>Done Building Project "D:\Games\Fara leakuri7\BrickBreaker\BrickBreaker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.71

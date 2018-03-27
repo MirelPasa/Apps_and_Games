@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FAB39140-4454-4EA4-B7FC-4347F2DBD76C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BrickBreaker</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Visual Leak Detector\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Visual Leak Detector\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BackBuffer.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="BrickBreakerGame.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Player2.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Vec2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackBuffer.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="BrickBreakerGame.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="giBrickBreaker.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Player2.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Vec2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BrickBreaker.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\Balls\blueball.bmp" />
+    <Image Include="Sprites\Balls\blueballMask.bmp" />
+    <Image Include="Sprites\Balls\yellowball.bmp" />
+    <Image Include="Sprites\Balls\yellowballMask.bmp" />
+    <Image Include="Sprites\Bricks\bluebrick.bmp" />
+    <Image Include="Sprites\Bricks\bluebrickMask.bmp" />
+    <Image Include="Sprites\Bricks\brownbrick.bmp" />
+    <Image Include="Sprites\Bricks\brownbrickMask.bmp" />
+    <Image Include="Sprites\Bricks\graybrick.bmp" />
+    <Image Include="Sprites\Bricks\graybrickMask.bmp" />
+    <Image Include="Sprites\Buttons\backtomenuhighlighted.bmp" />
+    <Image Include="Sprites\Buttons\backtomenunormal.bmp" />
+    <Image Include="Sprites\Buttons\backtomenupressed.bmp" />
+    <Image Include="Sprites\Buttons\buttonMask.bmp" />
+    <Image Include="Sprites\Buttons\playervsaihighlighted.bmp" />
+    <Image Include="Sprites\Buttons\playervsainormal.bmp" />
+    <Image Include="Sprites\Buttons\playervsaipressed.bmp" />
+    <Image Include="Sprites\Buttons\playervsplayerhighlighted.bmp" />
+    <Image Include="Sprites\Buttons\playervsplayernormal.bmp" />
+    <Image Include="Sprites\Buttons\playervsplayerpressed.bmp" />
+    <Image Include="Sprites\Buttons\quithighlighted.bmp" />
+    <Image Include="Sprites\Buttons\quitnormal.bmp" />
+    <Image Include="Sprites\Buttons\quitpressed.bmp" />
+    <Image Include="Sprites\Buttons\resumehighlighted.bmp" />
+    <Image Include="Sprites\Buttons\resumenormal.bmp" />
+    <Image Include="Sprites\Buttons\resumepressed.bmp" />
+    <Image Include="Sprites\Buttons\singleplayerhighlighted.bmp" />
+    <Image Include="Sprites\Buttons\singleplayernormal.bmp" />
+    <Image Include="Sprites\Buttons\singleplayerpressed.bmp" />
+    <Image Include="Sprites\Buttons\teammodehighlighted.bmp" />
+    <Image Include="Sprites\Buttons\teammodenormal.bmp" />
+    <Image Include="Sprites\Buttons\teammodepressed.bmp" />
+    <Image Include="Sprites\Gameboard\brickbreakerboard.bmp" />
+    <Image Include="Sprites\Gameboard\brickbreakerboardMask.bmp" />
+    <Image Include="Sprites\GameOver\gamecompleted.bmp" />
+    <Image Include="Sprites\GameOver\gamecompletedMask.bmp" />
+    <Image Include="Sprites\GameOver\gameover.bmp" />
+    <Image Include="Sprites\GameOver\gameoverMask.bmp" />
+    <Image Include="Sprites\GameOver\lose.bmp" />
+    <Image Include="Sprites\GameOver\loseMask.bmp" />
+    <Image Include="Sprites\GameOver\win.bmp" />
+    <Image Include="Sprites\GameOver\winMask.bmp" />
+    <Image Include="Sprites\Menu\menu.bmp" />
+    <Image Include="Sprites\Menu\menuMask.bmp" />
+    <Image Include="Sprites\Paddles\aipaddle.bmp" />
+    <Image Include="Sprites\Paddles\aipaddleMask.bmp" />
+    <Image Include="Sprites\Paddles\player2paddle.bmp" />
+    <Image Include="Sprites\Paddles\player2paddleMask.bmp" />
+    <Image Include="Sprites\Paddles\playerpaddle.bmp" />
+    <Image Include="Sprites\Paddles\playerpaddleMask.bmp" />
+    <Image Include="Sprites\Paddles\teammatepaddle.bmp" />
+    <Image Include="Sprites\Paddles\teammatepaddleMask.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

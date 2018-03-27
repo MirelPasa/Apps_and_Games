@@ -1,0 +1,179 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GAMEBOARD           	BITMAP                  "Sprites/Gameboard/brickbreakerboard.bmp"
+IDB_GAMEBOARD_MASK      	BITMAP                  "Sprites/Gameboard/brickbreakerboardMask.bmp"
+IDB_YELLOWBALL                	BITMAP                  "Sprites/Balls/yellowball.bmp"
+IDB_YELLOWBALL_MASK           	BITMAP                  "Sprites/Balls/yellowballMask.bmp"
+IDB_BLUEBALL                	BITMAP                  "Sprites/Balls/blueball.bmp"
+IDB_BLUEBALL_MASK           	BITMAP                  "Sprites/Balls/blueballMask.bmp"
+IDB_PLAYERPADDLE          	BITMAP                  "Sprites/Paddles/playerpaddle.bmp"
+IDB_PLAYERPADDLE_MASK         	BITMAP                  "Sprites/Paddles/playerpaddleMask.bmp"
+IDB_AIPADDLE          		BITMAP                  "Sprites/Paddles/aipaddle.bmp"
+IDB_AIPADDLE_MASK         	BITMAP                  "Sprites/Paddles/aipaddleMask.bmp"
+IDB_PLAYER2PADDLE          	BITMAP                  "Sprites/Paddles/player2paddle.bmp"
+IDB_PLAYER2PADDLE_MASK         	BITMAP                  "Sprites/Paddles/player2paddleMask.bmp"
+IDB_TEAMMATEPADDLE          	BITMAP                  "Sprites/Paddles/teammatepaddle.bmp"
+IDB_TEAMMATEPADDLE_MASK         BITMAP                  "Sprites/Paddles/teammatepaddleMask.bmp"
+IDB_MENUSCREEN         		BITMAP                  "Sprites/Menu/menu.bmp"
+IDB_MENUSCREEN_MASK         	BITMAP                  "Sprites/Menu/menuMask.bmp"
+IDB_GRAYBRICK         		BITMAP                  "Sprites/Bricks/graybrick.bmp"
+IDB_GRAYBRICK_MASK         	BITMAP                  "Sprites/Bricks/graybrickMask.bmp"
+IDB_BROWNBRICK_MASK         	BITMAP                  "Sprites/Bricks/brownbrickMask.bmp"
+IDB_BROWNBRICK        		BITMAP                  "Sprites/Bricks/brownbrick.bmp"
+IDB_BLUEBRICK_MASK         	BITMAP                  "Sprites/Bricks/bluebrickMask.bmp"
+IDB_BLUEBRICK        		BITMAP                  "Sprites/Bricks/bluebrick.bmp"
+IDB_GAMECOMPLETED             	BITMAP                  "Sprites/Gameover/gamecompleted.bmp"
+IDB_GAMECOMPLETED_MASK          BITMAP                  "Sprites/Gameover/gamecompletedMask.bmp"
+IDB_GAMEOVER          		BITMAP                  "Sprites/Gameover/gameover.bmp"
+IDB_GAMEOVER_MASK         	BITMAP                  "Sprites/Gameover/gameoverMask.bmp"
+IDB_WIN         		BITMAP                  "Sprites/Gameover/win.bmp"
+IDB_WIN_MASK         		BITMAP                  "Sprites/Gameover/winMask.bmp"
+IDB_LOSE         		BITMAP                  "Sprites/Gameover/lose.bmp"
+IDB_LOSE_MASK         		BITMAP                  "Sprites/Gameover/loseMask.bmp"
+IDB_SINGLEPLAYERNORMAL 		BITMAP			"Sprites/Buttons/singleplayernormal.bmp"
+IDB_SINGLEPLAYERHIGHLIGHTED	BITMAP			"Sprites/Buttons/singleplayerhighlighted.bmp"
+IDB_SINGLEPLAYERPRESSED		BITMAP			"Sprites/Buttons/singleplayerpressed.bmp"
+IDB_TEAMMODENORMAL		BITMAP			"Sprites/Buttons/teammodenormal.bmp"
+IDB_TEAMMODEHIGHLIGHTED		BITMAP			"Sprites/Buttons/teammodehighlighted.bmp"
+IDB_TEAMMODEPRESSED		BITMAP			"Sprites/Buttons/teammodepressed.bmp"
+IDB_PLAYERVSAINORMAL		BITMAP			"Sprites/Buttons/playervsainormal.bmp"
+IDB_PLAYERVSAIHIGHLIGHTED	BITMAP			"Sprites/Buttons/playervsaihighlighted.bmp"
+IDB_PLAYERVSAIPRESSED		BITMAP			"Sprites/Buttons/playervsaipressed.bmp"
+IDB_PLAYERVSPLAYERNORMAL	BITMAP			"Sprites/Buttons/playervsplayernormal.bmp"
+IDB_PLAYERVSPLAYERHIGHLIGHTED	BITMAP			"Sprites/Buttons/playervsplayerhighlighted.bmp"
+IDB_PLAYERVSPLAYERPRESSED	BITMAP			"Sprites/Buttons/playervsplayerpressed.bmp"
+IDB_BACKTOMENUNORMAL		BITMAP			"Sprites/Buttons/backtomenunormal.bmp"
+IDB_BACKTOMENUHIGHLIGHTED	BITMAP			"Sprites/Buttons/backtomenuhighlighted.bmp"
+IDB_BACKTOMENUPRESSED		BITMAP			"Sprites/Buttons/backtomenupressed.bmp"
+IDB_QUITNORMAL			BITMAP			"Sprites/Buttons/quitnormal.bmp"
+IDB_QUITHIGHLIGHTED		BITMAP			"Sprites/Buttons/quithighlighted.bmp"
+IDB_QUITPRESSED			BITMAP			"Sprites/Buttons/quitpressed.bmp"
+IDB_RESUMENORMAL		BITMAP			"Sprites/Buttons/resumenormal.bmp"
+IDB_RESUMEHIGHLIGHTED		BITMAP			"Sprites/Buttons/resumehighlighted.bmp"
+IDB_RESUMEPRESSED		BITMAP			"Sprites/Buttons/resumepressed.bmp"
+IDB_BUTTON_MASK			BITMAP			"Sprites/Buttons/buttonMask.bmp"
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 284, 190
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Mirel Pasa-Brick Breaker"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,114,158,50,14
+    CONTROL         118,IDC_STATIC,"Static",SS_BITMAP,17,16,54,49
+    LTEXT           "In progress...",IDC_STATIC,85,17,122,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
